@@ -1,0 +1,15 @@
+{
+  "name": "settlers-of-the-gang-of-four",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "bun scripts/dev.ts",
+    "build": "bun scripts/build.ts",
+    "check": "bun scripts/check.ts",
+    "test": "dotnet test exercises"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}
